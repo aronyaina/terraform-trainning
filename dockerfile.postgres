@@ -1,0 +1,7 @@
+FROM postgres:latest
+
+ENV POSTGRES_USER pguser
+ENV POSTGRES_PASSWORD pgpasswd
+ENV POSTGRES_DB fibonnaci
+
+EXPOSE 5432
